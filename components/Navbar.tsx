@@ -17,7 +17,7 @@ export default function Navbar() {
           <input
             type="search"
             placeholder="Search the items..."
-            className="ml-5 sm:ml-0 px-1 xl:px-28 py-1 sm:py-2 rounded border-2 border-gray-300"
+            className="lg:w-96 ml-5 sm:ml-0 px-1 py-1 sm:py-2 rounded border-2 border-gray-300"
           />
         </div>
         <div className="flex flex-row justify-center items-center">
