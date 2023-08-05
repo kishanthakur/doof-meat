@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import "./globals.css";
 import type { Metadata } from "next";
 import Footer from "@/components/Footer";
+import Shop from "@/components/Shop";
 
 export const metadata: Metadata = {
   title: "Doof meat",
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body>
         <Navbar />
         {children}
+        <Shop />
         <Footer />
       </body>
     </html>
