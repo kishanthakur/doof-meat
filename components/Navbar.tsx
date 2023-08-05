@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Navbar() {
   return (
     <nav>
-      <div className="flex flex-row justify-between items-center h-16 sm:h-20 w-full mt-1 sm:-mt-1 shadow-lg">
+      <div className=" flex flex-row justify-between items-center h-16 sm:h-20 w-full mt-1 sm:-mt-1 ">
         <div className="hidden sm:block">
           <Image
             alt="Doof meat"

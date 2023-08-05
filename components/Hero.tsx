@@ -5,9 +5,9 @@ function Hero() {
   return (
     <section className="bg-red-50">
       <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div className=" mb-7 sm:mr-9 lg:mt-0 lg:col-span-5 lg:hidden">
+        <div className=" mb-9 sm:mr-9 lg:mt-0 lg:col-span-5 lg:hidden">
           <Image
-            className="rounded-xl"
+            className="rounded-xl shadow-2xl"
             src="/hero-11.png"
             alt="mockup"
             width={600}
@@ -33,13 +33,7 @@ function Hero() {
           </a>
         </div>
         <div className=" mb-7 sm:mr-9 lg:mt-0 lg:col-span-5  hidden lg:block">
-          <Image
-            className="rounded-2xl"
-            src="/hero-10.png"
-            alt="mockup"
-            width={1200}
-            height={100}
-          />
+          <Image src="/hero-10.png" alt="mockup" width={1200} height={100} />
         </div>
       </div>
     </section>
