@@ -33,13 +33,44 @@ export default function Navbar() {
           />
         </div>
       </div>
-      <div className="fixed bottom-0 left-1/2 transform -translate-x-1/2 sm:hidden">
-        <Image
-          alt="Doof meat"
-          src="/doof-meat-logo.svg"
-          width={300}
-          height={30}
-        />
+      <div className="fixed flex flex-row justify-centre items-center w-full bg-white h-16 bottom-0 left-1/2 transform -translate-x-1/2 sm:hidden">
+        <Image alt="Doof meat" src="/logo-2.png" width={70} height={20} />
+        <div className="flex flex-col justify-start items-center">
+          <Image
+            className="-mb-1 mt-2"
+            alt="Shop"
+            src="/shop-icon.png"
+            width={20}
+            height={20}
+          />
+          <button className="text-lg ml-6 sm:ml-0 mr-4 xl:mr-6 px-2 sm:px-3 py-1 sm:py-2 rounded text-black font-semibold ">
+            Shop
+          </button>
+        </div>
+        <div className="flex flex-col justify-start items-center">
+          <Image
+            className="-mb-1 mt-2"
+            alt="Shop"
+            src="/about-icon.png"
+            width={20}
+            height={20}
+          />
+          <button className="text-lg ml-6 sm:ml-0 mr-4 xl:mr-6 px-2 sm:px-3 py-1 sm:py-2 rounded text-black font-semibold ">
+            About
+          </button>
+        </div>
+        <div className="flex flex-col justify-start items-center">
+          <Image
+            className="-mb-1 mt-2"
+            alt="Shop"
+            src="/contact-icon.png"
+            width={20}
+            height={20}
+          />
+          <button className="text-lg ml-6 sm:ml-0 mr-4 xl:mr-6 px-2 sm:px-3 py-1 sm:py-2 rounded text-black font-semibold ">
+            Contact
+          </button>
+        </div>
       </div>
     </nav>
   );
