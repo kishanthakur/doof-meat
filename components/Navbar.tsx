@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Navbar() {
   return (
     <nav>
-      <div className=" flex flex-row justify-between items-center h-16 sm:h-20 w-full mt-1 sm:-mt-1 ">
+      <div className="flex flex-row justify-between items-center h-16 sm:h-20 w-full mt-1 sm:-mt-1 ">
         <div className="hidden sm:block">
           <Image
             alt="Doof meat"
@@ -33,7 +33,7 @@ export default function Navbar() {
           />
         </div>
       </div>
-      <div className="fixed flex flex-row justify-centre items-center w-full bg-white h-16 bottom-0 left-1/2 transform -translate-x-1/2 sm:hidden">
+      <div className="z-50 fixed flex flex-row justify-centre items-center w-full bg-white h-16 bottom-0 left-1/2 transform -translate-x-1/2 sm:hidden">
         <Image alt="Doof meat" src="/logo-2.png" width={70} height={20} />
         <div className="flex flex-col justify-start items-center">
           <Image

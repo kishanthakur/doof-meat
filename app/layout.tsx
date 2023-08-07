@@ -3,6 +3,8 @@ import "./globals.css";
 import type { Metadata } from "next";
 import Footer from "@/components/Footer";
 import Shop from "@/components/Shop";
+import BestSeller from "@/components/BestSeller";
+import Slick from "@/components/Slick";
 
 export const metadata: Metadata = {
   title: "Doof meat",
@@ -20,6 +22,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Shop />
+        <BestSeller />
         <Footer />
       </body>
     </html>
