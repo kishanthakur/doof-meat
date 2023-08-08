@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import Footer from "@/components/Footer";
 import Shop from "@/components/Shop";
 import BestSeller from "@/components/BestSeller";
-import Slick from "@/components/Slick";
+import FoodMeansDoof from "@/components/FoodMeansDoof";
 
 export const metadata: Metadata = {
   title: "Doof meat",
@@ -23,6 +23,7 @@ export default function RootLayout({
         {children}
         <Shop />
         <BestSeller />
+        <FoodMeansDoof />
         <Footer />
       </body>
     </html>
