@@ -115,7 +115,7 @@ function FoodMeansDoof() {
               />
               <div className="flex flex-col justify-between px-3 leading-normal">
                 <h5 className="mb-2 mt-2 text-2xl font-bold tracking-tight text-black">
-                  Doof-cut
+                  Doof-Picked
                 </h5>
                 <p className="mb-3 font-normal text-gray-700">
                   Our animals are slaughtered only after following FSSAI

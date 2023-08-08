@@ -46,7 +46,7 @@ function SubscribeToEmail() {
                 </button>
               </div>
             </div>
-            <div className="mx-auto max-w-screen-sm text-[12px] sm:text-lg text-centre text-black -mt-2">
+            <div className="mx-auto max-w-screen-sm font-sans text-[12px] sm:text-lg text-centre text-black -mt-2">
               We don&apos;t spam at all and they&apos;re super cute and fun.
             </div>
           </form>

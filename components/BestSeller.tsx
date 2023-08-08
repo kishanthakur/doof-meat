@@ -38,21 +38,23 @@ function BestSeller() {
 
   return (
     <>
-      <div className="flex mt-12 max-w-screen-xl px-4 py-1 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 overflow-x-hidden">
-        <div className="w-full">
-          <div className="font-bold font-serif text-2xl">Best sellers</div>
-          <p className="font-sans">Most popular products on Doof</p>
-          <div className="overflow-hidden">
-            <Slider {...settings}>
-              <ProductCard />
-              <ProductCard />
-              <ProductCard />
-              <ProductCard />
-              <ProductCard />
-            </Slider>
+      <section className="bg-red-50 py-0">
+        <div className="flex mt-12 max-w-screen-xl px-4 py-1 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 overflow-x-hidden">
+          <div className="w-full">
+            <div className="font-bold font-serif text-2xl">Best sellers</div>
+            <p className="font-sans">Most popular products on Doof</p>
+            <div className="overflow-hidden">
+              <Slider {...settings}>
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+              </Slider>
+            </div>
           </div>
-        </div>
-      </div>{" "}
+        </div>{" "}
+      </section>
     </>
   );
 }
