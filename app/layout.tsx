@@ -7,6 +7,7 @@ import Shop from "@/components/Shop";
 import BestSeller from "@/components/BestSeller";
 import FoodMeansDoof from "@/components/FoodMeansDoof";
 import SubscribeToEmail from "@/components/SubscribeToEmail";
+import DoofMade from "@/components/DoofMade";
 
 export const metadata: Metadata = {
   title: "Doof meat",
@@ -26,6 +27,7 @@ export default function RootLayout({
         <Shop />
         <BestSeller />
         <FoodMeansDoof />
+        <DoofMade />
         <SubscribeToEmail />
         <Footer />
       </body>
