@@ -15,14 +15,19 @@ function TalkToUs() {
         </div>{" "}
         <div className=" mb-2">
           <p className="font-bold">Email us :</p>{" "}
-          heydoof@doofdoof.in/doofdesk@gmail.com
+          <p className="text-blue-800">
+            heydoof@doofdoof.in / doofdesk@gmail.com
+          </p>
         </div>{" "}
         <div className="mb-2">
           <div className="flex flex-row">
-            <p className="font-bold">Call or Whatsapp us : </p> 6-359-359-000
+            <p className="font-bold mr-1">Call or Whatsapp us : </p>{" "}
+            6-359-359-000
           </div>
         </div>{" "}
-        <div className=" mb-2">Anonymous suggestion box</div>{" "}
+        <div className="text-green-500 font-mono font-bold mb-2">
+          ANONYMOUS SUGGESTION BOX
+        </div>{" "}
         <div className="mb-2">FSSAI NO. : 20723013000201</div>{" "}
       </div>
     </>
