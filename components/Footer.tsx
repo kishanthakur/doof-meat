@@ -28,13 +28,13 @@ function Footer() {
         />
         <Image
           alt="Pinterest"
-          className="ml-4 mb-3"
+          className="ml-4"
           src="/tumblr-icon.png"
           width={40}
           height={10}
         />
       </div>
-      <div className="flex flex-row justify-center items-center">
+      <div className="flex flex-row justify-center items-center mt-3">
         <p> Copyright © 2023, Doof India </p>
       </div>
     </section>
