@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <section className="bg-red-50">
+    <section className="bg-white">
       <div className="grid max-w-screen-xl px-4 py-20 mx-auto lg:gap-8 xl:gap-0 lg:py-36 lg:grid-cols-12">
         <div className="mb-9 sm:mr-9 lg:mt-0 lg:col-span-5 lg:hidden">
           <Image

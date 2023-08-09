@@ -11,6 +11,7 @@ function BestSeller() {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
+
     responsive: [
       {
         breakpoint: 1024, // for screens larger than 1024px
@@ -29,7 +30,7 @@ function BestSeller() {
       {
         breakpoint: 480, // for screens smaller than 600px
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 1.25,
           slidesToScroll: 1,
         },
       },
@@ -38,7 +39,7 @@ function BestSeller() {
 
   return (
     <>
-      <section className="bg-red-50 py-0">
+      <section className="bg-white py-0">
         <div className="flex mt-12 max-w-screen-xl px-4 py-1 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 overflow-x-hidden">
           <div className="w-full">
             <div className="font-bold font-serif text-2xl">Best sellers</div>
