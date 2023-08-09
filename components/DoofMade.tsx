@@ -2,8 +2,8 @@ import React from "react";
 
 function DoofMade() {
   return (
-    <section className="bg-white mb-24">
-      <div className="flex flex-wrap flex-row px-3 py-20 justify-center items-start lg:ml-48 lg:mr-48">
+    <section className="bg-white mb-12">
+      <div className="flex flex-wrap flex-row px-3 py-9 justify-center items-start lg:ml-48 lg:mr-48">
         {/* Box 1 */}
         <div className="mt-12 mr-4 flex items-center w-[160px] h-[160px] lg:w-[250px]  lg:h-[230px] bg-white border border-gray-200 rounded-lg shadow ">
           <div className="p-5">

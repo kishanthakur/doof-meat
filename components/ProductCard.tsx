@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function ProductCard() {
   return (
-    <div className="relative mt-12 flex w-full max-w-[260px] flex-col  rounded-lg border border-gray-100 bg-white shadow-md">
+    <div className="relative mt-8 flex w-full max-w-[260px] flex-col  rounded-lg border border-gray-100 bg-white shadow-md">
       <a className="relative mx-3 mt-3 flex h-60 rounded-xl" href="#">
         <Image
           className="object-cover"
