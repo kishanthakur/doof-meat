@@ -11,7 +11,7 @@ function Shop() {
           </div>
           <p className="font-sans">Freshest meats and much more</p>
           <div className="hidden lg:flex flex-col sm:flex-row justify-center items-center">
-            <div className="mt-12 mr-4 max-w-sm bg-red-50 border border-gray-200 rounded-lg shadow ">
+            <div className="mt-12 mr-4 max-w-sm bg-red-50 border border-white rounded-lg shadow ">
               <a href="#">
                 <Image
                   className="rounded-t-lg"
@@ -41,7 +41,7 @@ function Shop() {
               </div>
             </div>
 
-            <div className="mt-12 mr-4 max-w-sm bg-red-50 border border-gray-200 rounded-lg shadow ">
+            <div className="mt-12 mr-4 max-w-sm bg-red-50 border border-white rounded-lg shadow ">
               <a href="#">
                 <Image
                   className="rounded-t-lg"
@@ -71,7 +71,7 @@ function Shop() {
               </div>
             </div>
 
-            <div className="mt-12 mr-4 max-w-sm bg-red-50 border border-gray-200 rounded-lg shadow">
+            <div className="mt-12 mr-4 max-w-sm bg-red-50 border border-white rounded-lg shadow">
               <a href="#">
                 <Image
                   className="rounded-t-lg"
@@ -104,7 +104,7 @@ function Shop() {
           <div className="mt-5 lg:hidden">
             <a
               href="#"
-              className="mb-6 flex flex-row items-center bg-red-50 border border-gray-200 rounded-lg shadow max-w-xl"
+              className="mb-6 flex flex-row items-center bg-red-50 border border-white rounded-lg shadow max-w-xl"
             >
               <Image
                 className="object-cover rounded-t-lg h-auto w-48 rounded-l-lg"

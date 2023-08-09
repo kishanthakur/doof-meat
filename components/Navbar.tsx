@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <nav>
-      <div className="flex flex-row justify-between items-center h-16 sm:h-20 w-full mt-1 sm:-mt-1 ">
+    <nav className="">
+      <div className="fixed z-50 flex flex-row justify-between items-center bg-white h-16 sm:h-20 w-full mt-0 sm:-mt-1 shadow-md ">
         <div className="hidden sm:block">
           <Image
             alt="Doof meat"
